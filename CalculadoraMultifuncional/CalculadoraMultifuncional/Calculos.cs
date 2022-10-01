@@ -71,21 +71,19 @@ namespace CalculadoraMultifuncional
         //SE(G14>=4664,68;((2826,65-1903,98)*K15)+((3751,05-2826,65)*K16)+((4664,68-3751,05)*K17)+((G14-4664,68)*K18);"ERRO")))))
         public static void CalculoFaixa02()
         {
-            aliquota = f2 / 100;
-
-            inss = 90.90 + ((salario - 1212) * aliquota);
-            aliquotaEfetiva = (inss / salario) * 100;
-            valorFinal = salario - inss;
+            aliquotaIrrf = (f02 / 100);
+            irrf = (salario - inss - 1903.98) * aliquotaIrrf;
+            aliquotaEfetivaIrrf = (irrf / salario) * 100;
+            valorDependentes = dependentes * 189.59;
 
         }
 
         public static void CalculoFaixa03()
         {
-            aliquota = f3 / 100;
-
-            inss = 90.90 + 109.38 + ((salario - 2427) * aliquota);
-            aliquotaEfetiva = (inss / salario) * 100;
-            valorFinal = salario - inss;
+            aliquotaIrrf = (f02 / 100);
+            irrf = (((2826.65 - 1903.98)*(f01/100)) + ((salario-inss - 2826.65) * aliquotaIrrf));
+            aliquotaEfetivaIrrf = (irrf / salario) * 100;
+            valorDependentes = dependentes * 189.59;
         }
         public static void CalculoFaixa04()
         {

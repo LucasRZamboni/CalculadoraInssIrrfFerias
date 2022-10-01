@@ -106,17 +106,27 @@ namespace CalculadoraMultifuncional
                     Calculos.CalculoFaixa01();
                     tbAliquotaIRRF.Text = Calculos.f01 + "%";
                     lbDependentes.Text = Calculos.valorDependentes.ToString("C2");
-                    lbIrrf.Text = "Faixa 0";
+                    lbIrrf.Text = "Faixa 1";
                     tbIrrf.Text = Calculos.irrf.ToString("C2");
                     tbAliquotaEfetivaIRRF.Text = Calculos.aliquotaEfetivaIrrf.ToString("N2") + "%";
                 }
                 else if (Calculos.salario >= 1903.99 && Calculos.salario <= 2826.65)
                 {
-
+                    Calculos.CalculoFaixa02();
+                    tbAliquotaIRRF.Text = Calculos.f02 + "%";
+                    lbDependentes.Text = Calculos.valorDependentes.ToString("C2");
+                    lbIrrf.Text = "Faixa 2";
+                    tbIrrf.Text = Calculos.irrf.ToString("C2");
+                    tbAliquotaEfetivaIRRF.Text = Calculos.aliquotaEfetivaIrrf.ToString("N2") + "%";
                 }
                 else if (Calculos.salario >= 2826.66 && Calculos.salario <= 3751.05)
                 {
-
+                    Calculos.CalculoFaixa03();
+                    tbAliquotaIRRF.Text = Calculos.f03 + "%";
+                    lbDependentes.Text = Calculos.valorDependentes.ToString("C2");
+                    lbIrrf.Text = "Faixa 3";
+                    tbIrrf.Text = Calculos.irrf.ToString("C2");
+                    tbAliquotaEfetivaIRRF.Text = Calculos.aliquotaEfetivaIrrf.ToString("N2") + "%";
                 }
                 else if (Calculos.salario >= 3751.06 && Calculos.salario <= 4664.68)
                 {
@@ -132,7 +142,7 @@ namespace CalculadoraMultifuncional
                 }
 
 
-                Calculos.valorFinal = Calculos.salario - (Calculos.inss + Calculos.irrf + Calculos.valorDependentes);
+                Calculos.valorFinal = Calculos.salario - (Calculos.inss + Calculos.irrf + Calculos.valorDependentes + Calculos.pensao);
                 tbValorFinal.Text = Calculos.valorFinal.ToString("C2");
             }
         }
@@ -147,6 +157,10 @@ namespace CalculadoraMultifuncional
             tbValorFinal.Text = "";
             tbDependentes.Text = "";
             tbPensaoAlim.Text = "";
+            tbIrrf.Text = "";
+            tbAliquotaEfetivaIRRF.Text = "";
+            lbIrrf.Text = "";
+            tbAliquotaIRRF.Text = "";
         }
 
         private void Irrf_Load(object sender, EventArgs e)

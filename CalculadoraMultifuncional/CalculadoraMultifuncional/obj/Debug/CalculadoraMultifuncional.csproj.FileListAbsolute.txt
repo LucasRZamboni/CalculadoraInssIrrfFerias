@@ -40,3 +40,17 @@ C:\Users\lucas\Desktop\Projetos\CaluladoraMultifuncional\CalculadoraMultifuncion
 C:\Users\lucas\Desktop\Projetos\CaluladoraMultifuncional\CalculadoraMultifuncional\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.csproj.CoreCompileInputs.cache
 C:\Users\lucas\Desktop\Projetos\CaluladoraMultifuncional\CalculadoraMultifuncional\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.exe
 C:\Users\lucas\Desktop\Projetos\CaluladoraMultifuncional\CalculadoraMultifuncional\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.pdb
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\bin\Debug\CalculadoraMultifuncional.exe.config
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\bin\Debug\CalculadoraMultifuncional.exe
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\bin\Debug\CalculadoraMultifuncional.pdb
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.csproj.AssemblyReference.cache
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.csproj.SuggestedBindingRedirects.cache
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.Ferias.resources
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.Inss.resources
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.Irrf.resources
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.Menu.resources
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.Properties.Resources.resources
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.csproj.GenerateResource.cache
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.csproj.CoreCompileInputs.cache
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.exe
+C:\Users\LUCAS\Desktop\Projetos\CalculadoraMultifuncional\CalculadoraMultifuncional\obj\Debug\CalculadoraMultifuncional.pdb
