@@ -31,6 +31,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pFerias = new System.Windows.Forms.Panel();
+            this.pIrrf = new System.Windows.Forms.Panel();
+            this.pInss = new System.Windows.Forms.Panel();
             this.btnFerias = new System.Windows.Forms.Button();
             this.btnIrrf = new System.Windows.Forms.Button();
             this.btnInss = new System.Windows.Forms.Button();
@@ -68,6 +71,9 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.pFerias);
+            this.panel3.Controls.Add(this.pIrrf);
+            this.panel3.Controls.Add(this.pInss);
             this.panel3.Controls.Add(this.btnFerias);
             this.panel3.Controls.Add(this.btnIrrf);
             this.panel3.Controls.Add(this.btnInss);
@@ -75,6 +81,35 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(577, 333);
             this.panel3.TabIndex = 0;
+            // 
+            // pFerias
+            // 
+            this.pFerias.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pFerias.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pFerias.Location = new System.Drawing.Point(414, 233);
+            this.pFerias.Name = "pFerias";
+            this.pFerias.Size = new System.Drawing.Size(108, 61);
+            this.pFerias.TabIndex = 4;
+            // 
+            // pIrrf
+            // 
+            this.pIrrf.BackgroundImage = global::CalculadoraMultifuncional.Properties.Resources.irrf_institute;
+            this.pIrrf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pIrrf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pIrrf.Location = new System.Drawing.Point(217, 233);
+            this.pIrrf.Name = "pIrrf";
+            this.pIrrf.Size = new System.Drawing.Size(140, 61);
+            this.pIrrf.TabIndex = 4;
+            // 
+            // pInss
+            // 
+            this.pInss.BackgroundImage = global::CalculadoraMultifuncional.Properties.Resources.inss_institute;
+            this.pInss.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pInss.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pInss.Location = new System.Drawing.Point(53, 233);
+            this.pInss.Name = "pInss";
+            this.pInss.Size = new System.Drawing.Size(108, 61);
+            this.pInss.TabIndex = 3;
             // 
             // btnFerias
             // 
@@ -170,5 +205,8 @@
         private System.Windows.Forms.Button btnFerias;
         private System.Windows.Forms.Button btnIrrf;
         private System.Windows.Forms.Button btnInss;
+        private System.Windows.Forms.Panel pInss;
+        private System.Windows.Forms.Panel pFerias;
+        private System.Windows.Forms.Panel pIrrf;
     }
 }

@@ -25,29 +25,35 @@ namespace CalculadoraMultifuncional
         private void btnInss_MouseEnter(object sender, EventArgs e)
         {
             btnInss.BackColor = Color.DarkOrange;
+            pInss.BackColor = Color.DarkOrange;
         }
 
         private void btnInss_MouseLeave(object sender, EventArgs e)
         {
             btnInss.BackColor = Color.Gainsboro;
+            pInss.BackColor = Color.Transparent;
         }
         private void btnIrrf_MouseEnter(object sender, EventArgs e)
         {
             btnIrrf.BackColor = Color.DarkOrange;
+            pIrrf.BackColor = Color.DarkOrange;
         }
 
         private void btnIrrf_MouseLeave(object sender, EventArgs e)
         {
             btnIrrf.BackColor = Color.Gainsboro;
+            pIrrf.BackColor = Color.Transparent;
         }
         private void btnFerias_MouseEnter(object sender, EventArgs e)
         {
             btnFerias.BackColor = Color.DarkOrange;
+            pFerias.BackColor = Color.DarkOrange;
         }
 
         private void btnFerias_MouseLeave(object sender, EventArgs e)
         {
             btnFerias.BackColor = Color.Gainsboro;
+            pFerias.BackColor = Color.Transparent;
         }
 
         private void btnInss_Click(object sender, EventArgs e)
